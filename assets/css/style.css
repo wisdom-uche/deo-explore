@@ -1,0 +1,18 @@
+* {
+    background-color: rgb(231, 229, 229);
+}
+
+
+/* <!-- intro text and main image --> */
+/* <!-- intro text and main image --> */
+section {
+    padding: 4rem 0;
+}
+#intro .btn {
+    color: #006800 !important;
+    border: 2px solid #006800 !important;
+}
+#intro .btn:hover {
+    color: white !important;
+    background-color: #006800 !important;
+}

@@ -1,18 +1,35 @@
 * {
-    background-color: rgb(231, 229, 229);
+    background-color: rgb(231, 229, 229) !important;
 }
 
-
-/* <!-- intro text and main image --> */
-/* <!-- intro text and main image --> */
 section {
     padding: 4rem 0;
 }
-#intro .btn {
-    color: #006800 !important;
-    border: 2px solid #006800 !important;
+
+
+/* navbar */
+/* navbar */
+.navbar span {
+    color: #006800;
 }
-#intro .btn:hover {
+.navbar button {
+    color: #006800;
+}
+.navbar .btn {
+    background-color: #006800 !important;
+    color: white !important;
+} 
+
+/* intro text and main image */
+/* intro text and main image */
+#intro .btn {
     color: white !important;
     background-color: #006800 !important;
+}
+
+/* pricing plans */
+/* pricing plans */
+#pricing .btn:hover {
+    color: white !important;
+    background-color: #006800!important;
 }
